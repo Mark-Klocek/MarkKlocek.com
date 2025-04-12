@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+    align-content: center;
+}
+div{
+    border: solid 3px;
+    padding: 1em;
+    max-width: 100%;
+    background-color: wheat;
+}
+.graph_container{
+    background-color: red;
+}
