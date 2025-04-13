@@ -7,7 +7,17 @@ div{
     padding: 1em;
     max-width: 100%;
     background-color: wheat;
+    
 }
-.graph_container{
-    background-color: red;
+div > div {
+    background: black;
+    max-width: 50%;
+    align-self: center;
+    text-align: center;
+    color: white;
+}
+#graph {
+    color: red;
+    height: 200;
+    font-family: 'roboto';
 }
