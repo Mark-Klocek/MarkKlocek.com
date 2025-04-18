@@ -6,7 +6,7 @@ body{
 div{
     border: solid 1px;
     padding: 5px;
-    max-width: 600px;
+    width: 600px;
     background-color: rgb(240, 238, 234);
     margin: 0 auto;
     border-radius: 5px;
@@ -20,6 +20,8 @@ div > div {
     text-align: center;
     color: white;
     border: none;
+    height: 100%;
+    width: 100%;
 }
 #graph {
     
@@ -32,7 +34,7 @@ div > div {
     
 }
 #workout {
-    height: 1000px;
+    height: 600px;
 }
 .me{
     width: 100%;
