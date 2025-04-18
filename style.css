@@ -43,3 +43,9 @@ div > div {
     
     
 }
+h1{
+    color: white;
+    margin: 0 auto;
+    /* border: 1px solid white; */
+    text-align: center;
+}
