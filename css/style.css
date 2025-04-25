@@ -54,6 +54,28 @@ body {
   background-color: black;
   color: white;
 }
+.box-2{
+  flex-direction: column;
+  /* width: 36.5%; */
+  align-items: center;
+  color: white;
+  background: none;
+  text-align: center;
+  
+  
+}
+.box-2 > iframe{
+  height: 100%;
+  width:605px;
+  scroll-behavior:smooth;
+  border: none;
+  
+}
+.box-2 > h2{
+  width: 100%;
+  
+  
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
