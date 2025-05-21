@@ -100,7 +100,7 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: 'Open Sans', sans-serif;
 		line-height: 1.85em;
-		color: #888;
+		color: #fffdfd;
 		font-weight: 300;
 		font-size: 13pt;
 	}
@@ -150,7 +150,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #3e3e3e;
+		color: #f3f3f3;
 		margin: 0 0 0.75em 0;
 	}
 
@@ -1530,8 +1530,8 @@ input, select, textarea {
 		font-size: 1em;
 		border-radius: 8px;
 		border: solid 1px #ddd;
-		background: #fff;
-		color: #bbb;
+		background: #686666;
+		color: #eeecec;
 		box-shadow: inset 0px 2px 3px 1px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025);
 		width: 100%;
 	}
@@ -1554,7 +1554,7 @@ input, select, textarea {
 	}
 
 	form ::-webkit-input-placeholder {
-		color: #555 !important;
+		color: #ffffff !important;
 	}
 
 	form :-moz-placeholder {
@@ -1683,10 +1683,10 @@ input, select, textarea {
 		outline: 0;
 		cursor: pointer;
 		border-radius: 8px;
-		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
+		/* text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5); */
 		overflow: hidden;
-		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: #43B3E0;
+		/* box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75); */
+		background-color: #2f3c41;
 		padding: 1em 2.35em 1em 2.35em;
 		font-size: 1.1em;
 		max-width: 24em;
@@ -1815,7 +1815,7 @@ input, select, textarea {
 					text-align: center;
 					outline: 0;
 					overflow: hidden;
-					text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.1);
+					/* text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.1); */
 					width: 48px;
 				}
 
@@ -1911,7 +1911,7 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #fff;
+		background: #000000;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		text-align: center;
 		padding: 2em;
@@ -1972,7 +1972,7 @@ input, select, textarea {
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
-
+		
 		.icon.featured {
 			color: #EA8A95;
 			display: block;
@@ -1995,23 +1995,23 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background-image: none;
-			background-color: #fff;
+			background-color: #020202;
 		}
 
 		.wrapper.style2 {
-			background-color: #fafafa;
-			text-shadow: 1px 1px 0px #fff;
+			background-color: #020202;
+			/* text-shadow: 1px 1px 0px #fff; */
 		}
 
 		.wrapper.style3 {
-			background-color: #f4f4f4;
-			text-shadow: 1px 1px 0px #fff;
+			background-color: #020202;
+			/* text-shadow: 1px 1px 0px #fff; */
 		}
 
 		.wrapper.style4 {
-			background-color: #303030;
-			color: #999;
-			text-shadow: -1px -1px 0px #181818;
+			background-color: #020202;
+			color: #faf8f8;
+			/* text-shadow: -1px -1px 0px #181818; */
 		}
 
 			.wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
@@ -2443,3 +2443,15 @@ input, select, textarea {
 					}
 
 	}
+.box.style1 i {
+  background-color: transparent;
+  /* color: rgb(125, 139, 218); */
+  padding: 20px;
+  border-radius: 50%;
+  font-size: 5em;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.textarea{
+	color: white;
+}
